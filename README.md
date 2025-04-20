@@ -23,9 +23,8 @@ If a is odd --- it prints the first a odd numbers.
 
 
 # Problem-4.py
-Takes a comma-separated string of numbers as input.
-Converts the string to a list of integers
-For each number from 1 to 9 It counts how many numbers in the input list are divisible by that number.
+Takes a list of numbers as input and counts how many are divisible by each number from 1 to 9.  
+It stores the results in a dictionary where the key is the divisor and the value is the count.  
 **Output** a dictionary with the number as the key and the count of divisible numbers as the value.
 
 
